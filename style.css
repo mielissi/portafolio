@@ -1,10 +1,38 @@
 body {
-    background-color: white
-    ;
+    background-color: white;
 }
 
 #presentacion {
     background-color: white
-    
 }
 
+#proyecto-1 {
+    background-image: url('/Portafolio/industria\ aeronautica.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-2 {
+    background-image: url('/Portafolio/clon\ de\ google.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-3 {
+    background-image: url('/Portafolio/pagina\ mis\ intereses.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .70);
+}
+
+.text-justified {
+    text-align: justify;
+    width: 80%;
+    text-indent: 20px;
+}

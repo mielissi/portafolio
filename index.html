@@ -17,9 +17,9 @@
 <body>
 
     <header>
-        <nav id="navv" class="navbar navbar-expand-lg bg-black">
+        <nav id="navv" class="navbar fixed-top navbar-expand-lg bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">Melissa</a>
+                <a class="navbar-brand text-white" href="#presentacion">Melissa</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,13 +30,13 @@
                             <a class="nav-link text-white opacity-75" aria-current="page" href="#">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white opacity-75" href="#">Proyectos</a>
+                            <a class="nav-link text-white opacity-75" href="#proyctos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white opacity-75" href="#">Testimonios</a>
+                            <a class="nav-link text-white opacity-75" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white opacity-75" href="#">Contacto</a>
+                            <a class="nav-link text-white opacity-75" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -56,8 +56,7 @@
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                         <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Contáctame</button>
-                        <button type="button"
-                            class="btn btn-outline-danger btn-lg px-4">mromero13@uabc.edu.mx</button>
+                        <button type="button" class="btn btn-outline-danger btn-lg px-4">mromero13@uabc.edu.mx</button>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
@@ -66,123 +65,109 @@
             </div>
         </section>
 
-        <section id="habilidades" class="container px-4 py-5">
+        <section id="habilidades" class="container px-4 py-9">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 justify-content-between">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5 justify-content-between">
                 <div class="col d-flex align-items-start">
-                    <i class="bi bi-microsoft h3"></i>
+                    <h1><i class="bi bi-microsoft h3"></i></h1>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Paquetería Microsoft Office</h3>
-                        <p>blah blah blah</p>
+                        <p class="text-justified">Manejo avanzado de Excel, Power Point, World y similares.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
-                    <i class="bi bi-microsoft h3"></i>
+                    <h1><i class="bi bi-file-earmark-code"></i></h1>
                     <div>
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Paquetería Microsoft Office</h3>
-                        <p>blah blah blah</p>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Desarrollo Front-End</h3>
+                        <p class="text-justified">Conocimientos y habilidades básicas de lenguajes html y css para el desarrollo de páginas web.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
-                    <i class="bi bi-microsoft h3"></i>
+                    <h1><i class="bi bi-bar-chart-line-fill"></i></h1>
                     <div>
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Paquetería Microsoft Office</h3>
-                        <p>blah blah blah</p>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Interpretación de datos</h3>
+                        <p class="text-justified">Junto al manejo básico de softwares econométricos como Eviwes y Stata, la construcción de base de datos y la creación de representaciones gráficas.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <h1><i class="bi bi-book"></i></h1>   
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Creatividad y facilidad de aprendizaje</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <h1><i class="bi bi-puzzle-fill"></i></h1>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Resolución de problemas</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <h1><i class="bi bi-people-fill"></i></h1>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Trabajo en equipo</h3>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="proyectos" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
 
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 align-content-stretch">
+
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div id="proyecto-1" class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Proyecto 1</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Análisis de la industria aeronautica de
+                            BC</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
-                                </li>
+                                    <a href="https://www.canva.com/design/DAFzS9eR5bU/lzxrenWWlSYCzNEJ-BPQRg/edit?utm_content=DAFzS9eR5bU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                                        target="_blank">
+                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                    </a>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
+                    <div id="proyecto-2" class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Proyecto 2</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Trabajo en clase - Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Pakistan</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>4d</small>
-                                </li>
+                                    <a href="https://github.com/mielissi/clon_google_tc"
+                                        target="_blank">
+                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                    </a>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-3.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Proyecto 3</h3>
+                    <div id="proyecto-3" class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Página en html sobre mis intereses</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>California</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>5d</small>
-                                </li>
+                                    <a href="https://github.com/mielissi/Mis-intereses"
+                                        target="_blank">
+                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                    </a>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+
         </section>
 
-        <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <section id="testimonios" class="container px-4 py-5"> 
+            <h2 class="pb-2 border-bottom">Testimonios</h2>
+
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -192,70 +177,67 @@
                         class="active" aria-current="true"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center px-5 py-3">
+                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
+                            <h3>Nombre</h3>
+                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                        </article>
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                    <div class="carousel-item">
+                        <article class="container text-center px-5 py-3">
+                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
+                            <h3>Nombre</h3>
+                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="container text-center px-5 py-3">
+                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
+                            <h3>Nombre</h3>
+                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                        </article>
+                    </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
         </section>
 
     </main>
 
-    <footer id="contacto" class="container">
-        <div class="py-3 my-4">
+    <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
+        <div class="py-3 my-0">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+
+                <li class="nav-item">
+                    <a href="www.linkedin.com/in/karla-melissa-romero-benitez-123679295" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/mielissi" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="??" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-envelope fs-2"></i>
+                    </a>
+                </li>
+               
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Melissa Romero</p>
         </div>
     </footer>
 
