@@ -22,7 +22,7 @@
                 <a class="navbar-brand text-white" href="#presentacion">Melissa</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon text-white"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -45,27 +45,30 @@
     </header>
 
     <main>
-        <section id="presentacion" class="container my-5">
-            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Melissa Romero
-                    </h1>
-                    <p class="lead">
-                        Licenciada en Economía por la Universidad Autónoma de Baja California
-                        con habilidades en finanzas, el análisis de datos, y para el aprendizaje continuo.
-                    </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Contáctame</button>
-                        <button type="button" class="btn btn-outline-danger btn-lg px-4">mromero13@uabc.edu.mx</button>
+        <section id="presentacion" class="container-fluid">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <div class="row flex-lg-row align-items-center g-5 py-5 my-5">
+                    <div class="col-lg-6">
+                        <h1 id="app" class="display-5 fw-bold text-white text-shadow-1 mb-3">Melissa Romero
+                        </h1>
+                        <p class="lead text-white text-shadow-1">
+                            Licenciada en Economía por la Universidad Autónoma de Baja California
+                            con habilidades en finanzas, el análisis de datos, y para el aprendizaje continuo.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <button type="button"
+                                class="btn btn-dark btn-lg px-4 me-md-2 fw-bold shadow-lg">Contáctame</button>
+
+                            <button type="button" class="btn btn-warning btn-lg shadow-lg px-4" onclick="copiarAlPortapapeles('mromero13@uabc.edu.mx')">
+                                mromero13@uabc.edu.mx
+                              </button>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img id="econ_img" class="rounded-lg-3" src="/Portafolio/econ_img.webp" alt="Economía" width="500">
                 </div>
             </div>
         </section>
 
-        <section id="habilidades" class="container px-4 py-9">
+        <section id="habilidades" class="container px-4 py-20 my-5">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5 justify-content-between">
@@ -80,20 +83,23 @@
                     <h1><i class="bi bi-file-earmark-code"></i></h1>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Desarrollo Front-End</h3>
-                        <p class="text-justified">Conocimientos y habilidades básicas de lenguajes html y css para el desarrollo de páginas web.</p>
+                        <p class="text-justified">Conocimientos y habilidades básicas de lenguajes html y css para el
+                            desarrollo de páginas web.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
                     <h1><i class="bi bi-bar-chart-line-fill"></i></h1>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Interpretación de datos</h3>
-                        <p class="text-justified">Junto al manejo básico de softwares econométricos como Eviwes y Stata, la construcción de base de datos y la creación de representaciones gráficas.</p>
+                        <p class="text-justified">Junto al manejo básico de softwares econométricos como Eviwes y Stata,
+                            la construcción de base de datos y la creación de representaciones gráficas.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
-                    <h1><i class="bi bi-book"></i></h1>   
+                    <h1><i class="bi bi-book"></i></h1>
                     <div>
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Creatividad y facilidad de aprendizaje</h3>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mx-3">Creatividad y facilidad de aprendizaje
+                        </h3>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -111,7 +117,7 @@
             </div>
         </section>
 
-        <section id="proyectos" class="container px-4 py-5">
+        <section id="proyectos" class="container px-4 py-1">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 align-content-stretch">
@@ -120,12 +126,13 @@
                     <div id="proyecto-1" class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Análisis de la industria aeronautica de
-                            BC</h3>
+                                BC</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <a href="https://www.canva.com/design/DAFzS9eR5bU/lzxrenWWlSYCzNEJ-BPQRg/edit?utm_content=DAFzS9eR5bU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                                         target="_blank">
-                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                        <button type="button"
+                                            class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
                                     </a>
                             </ul>
                         </div>
@@ -138,9 +145,9 @@
                             <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Trabajo en clase - Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <a href="https://github.com/mielissi/clon_google_tc"
-                                        target="_blank">
-                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                    <a href="https://github.com/mielissi/clon_google_tc" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
                                     </a>
                             </ul>
                         </div>
@@ -153,9 +160,9 @@
                             <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">Página en html sobre mis intereses</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <a href="https://github.com/mielissi/Mis-intereses"
-                                        target="_blank">
-                                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
+                                    <a href="https://github.com/mielissi/Mis-intereses" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Proyecto</button>
                                     </a>
                             </ul>
                         </div>
@@ -164,7 +171,7 @@
 
         </section>
 
-        <section id="testimonios" class="container px-4 py-5"> 
+        <section id="testimonios" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Testimonios</h2>
 
             <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -179,37 +186,51 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <article class="container text-center px-5 py-3">
-                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
-                            <h3>Nombre</h3>
-                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                            <img src="/Portafolio/testimonio1.jpg" alt="Logo comité de aeronautica ITH" height="300">
+                            
+                            <p class="justificado">Tuve el privilegio de conocer y trabajar con Melissa Romero. Ella ha demostrado una
+                                notable habilidad para el análisis económico y la
+                                interpretación de datos complejos. Su capacidad para identificar tendencias y proponer
+                                soluciones innovadoras la destacan como una profesional excepcional. Melissa siempre
+                                está dispuesta a aprender y a enfrentar nuevos desafíos con entusiasmo y determinación.
+                                Estoy seguro de que será una valiosa adición a cualquier equipo y tendrá un
+                                impacto significativo en cualquier proyecto en el que participe.</p>
+                            <h5 class="leyenda">Paloma Ruíz - Vicepresidenta del Comité de Ingeniería Aeronáutica ITH</h5>
                         </article>
                     </div>
                     <div class="carousel-item">
                         <article class="container text-center px-5 py-3">
-                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
-                            <h3>Nombre</h3>
-                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                            <img src="/Portafolio/testimonio2.jpg" alt="Logo Tecnolochicas" height="300" id="testimonio2">
+                            <p class="justificado">Melissa Romero ha demostrado ser una alumna responsable y muy creativa durante el curso.
+                                Su interes por aprender la motiva a mejorar con cada proyecto que realiza.
+                            </p>
+                            <h5 class="leyenda">Litzi Sánchez - Mentora Técnica en Tecnolochicas PRO</h5>
                         </article>
                     </div>
                     <div class="carousel-item">
                         <article class="container text-center px-5 py-3">
-                            <img src="/Portafolio/aeronaves.png" alt="" height="300">
-                            <h3>Nombre</h3>
-                            <p>Contenido en el que se describe un testimonio sobre mí</p>
+                            <img src="/Portafolio/testimonio3.png" alt="Logo Proyecto Colibrí" height="300">
+                            
+                            <p class="justificado">Durante el periodo enero - mayo del presente año, tuve la oportunidad de colaborar con
+                                Melissa Romero en el proyecto Colibrí, el cual tiene por objetivo la generación de
+                                proyectos orientados en el apoyo para la comunidad en contexto de movilidad. El
+                                desempeño de Melissa Romero fue excelente, demostrando sus habilidades en la propuesta
+                                de ideas dinámicas y la solución de conflictos de manera práctica. Su compromiso con el
+                                proyecto y con la comunidad reflejan en ella una profesionista con gran responsabilidad
+                                y empatía.</p>
+                            <h5 class="leyenda">Cristina Agripino - Proyecto Colibrí en UABC Yunus</h5>
                         </article>
                     </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                </div class="margintop">
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
 
     </main>
@@ -219,7 +240,8 @@
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
 
                 <li class="nav-item">
-                    <a href="www.linkedin.com/in/karla-melissa-romero-benitez-123679295" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <a href="www.linkedin.com/in/karla-melissa-romero-benitez-123679295" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
                         <i class="bi bi-linkedin fs-2"></i>
                     </a>
                 </li>
@@ -235,7 +257,7 @@
                         <i class="bi bi-envelope fs-2"></i>
                     </a>
                 </li>
-               
+
             </ul>
             <p class="text-center text-body-secondary">© 2024 Melissa Romero</p>
         </div>
@@ -244,6 +266,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,15 @@ body {
 }
 
 #presentacion {
-    background-color: white
+    min-height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-image: url("/Portafolio/economy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #proyecto-1 {
@@ -36,3 +44,32 @@ body {
     width: 80%;
     text-indent: 20px;
 }
+
+.justificado {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.leyenda {
+    text-align: right;
+    padding: 5px;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+
+.margintop{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#testimonio2{
+    border-radius: 50%;
+}
+
